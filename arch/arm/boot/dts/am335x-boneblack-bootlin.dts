@@ -2,10 +2,5 @@
 #include "am335x-boneblack.dts"
 
 / {
-    leds {
-        led2 {
-        	gpios = <&gpio1 21 GPIO_ACTIVE_HIGH>;
-        	default-state = "on";
-        };
-    };
+	model = "Bootlin course BeagleBone Black";
 };
