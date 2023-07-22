@@ -8,4 +8,9 @@
 &i2c1 {
     status = "okay";
     clock-frequency = <0x186a0>;
+
+    nunchuk: joystick@52 {
+        compatible = "nintendo,nunchuk";
+        reg = <0x52>;
+    };
 };
