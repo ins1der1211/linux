@@ -26,3 +26,10 @@
         reg = <0x52>;
     };
 };
+
+&i2c2 {
+    nunchuk2: joystick@52 {
+        compatible = "nintendo,nunchuk";
+        reg = <0x52>;
+    };
+};
